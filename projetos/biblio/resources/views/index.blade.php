@@ -7,7 +7,7 @@ Home
 @section('content')
     <ul>
         @foreach ($editoras as $editora)
-            <li>{{$editora}}</li>
+            <li>{{$editora->nome}}</li>
         @endforeach
     </ul>
 @stop
